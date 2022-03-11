@@ -1,0 +1,118 @@
+
+@import "variables";
+@import "header";
+@import "cardsVentas";
+@import "plantas";
+@import "macetas";
+@import "productos";
+@import "contacto";
+@import "footer";
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*---------------------------menúIndex------------------//
+/*h1Paginas*/
+.tituloPagina{
+    margin-top:  7rem;
+    margin-left: 2rem;
+    color: $color1;
+}
+/*h1PaginasFIN*/
+
+
+/*-carOusel-*/
+.carousel-inner img {
+width: 100%;
+height: 100%;
+}
+.carousel-inner{
+width: 100%;
+height: 100%;
+}
+.carousel__margin{
+margin-top: 7em;
+margin-left: 3em;
+margin-right: 3em;
+}
+/*-carouselFin-*/
+
+/*-contaIner-*/
+.container{
+font-family: Sawarabi Mincho;
+margin-right: 0%;
+margin-left: 0%;
+min-width: 100%;
+position: relative;
+margin-top: 2em;
+}
+.container__menu{
+text-align: center;
+color: honeydew;
+font-size: 18px;
+font-weight: $tamano-titulo*2;
+padding: 50px 50px 50px 50px;
+backdrop-filter: blur(5px);
+}
+.container__menu--1{
+background-image: url("/MEDIA/container1.jpg");
+}
+.container__menu--2{
+background-image: url("/MEDIA/container2.jpg");
+}
+.container__menu--3{
+background-image: url("/MEDIA/container3.jpg");
+}
+.containerText{
+background-color: $color5;
+}
+
+/*-container-*/
+
+/*----pagefooter-------*/
+
+footer {
+    background-color: $color3;
+    bottom: 0%;
+    width: 100%;
+    
+    margin-top: 10%;
+    
+}
+
+.footer__titulo {
+    color: $color2
+}
+
+.footer-copyright {
+    background-color: blueviolet;
+}
+
+.footer__link {
+    color: black;
+}
+
+/*-------------------------------------finMenuIndex-----------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------plantasInicio--------------------------------------------*/
+
+/*----------------------------------------plantasFin--------------------------------------------*/
+
+
+
+
+/*--------------------------------------productosInicio-----------------------------------------------*/
+
+/*--------------------------------------prouctosFin-----------------------------------------------*/
+
+
+
+
+/*----------------------------------------maceTAs----------------------------------------------*/
+
+
+
+

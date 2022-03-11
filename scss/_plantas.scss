@@ -1,0 +1,33 @@
+/*----------------------------------------plantasCards---------------------------------------------*/
+
+.card1{
+    background-image: url(../MEDIA/exterior.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+}
+
+.card1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card2{
+    background-image: url(../MEDIA/interior.jpg);
+}
+
+.card2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.cardsPlantas{
+    backdrop-filter: blur(5px);
+    color: black;
+}
+
+.linkCard{
+    text-decoration: none;
+    color:black
+}
+
+/*----------------------------------------finPlantascards---------------------------------------*/

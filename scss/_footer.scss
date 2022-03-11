@@ -1,0 +1,28 @@
+//footer
+
+footer {
+    background-color: $color3;
+    bottom: 0%;
+    width: 100%;
+    
+    margin-top: 10%;
+    
+}
+
+.footer__titulo {
+    color: blueviolet;
+}
+
+.footer-copyright {
+    background-color: blueviolet;
+}
+
+.footer__link {
+    color: black;
+}
+
+.footerIconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
